@@ -5,7 +5,7 @@ import "../styles/layout.scss";
 const IndexLayout = () => {
   return (
     <div className="index-layout">
-      <div className="d-none d-sm-flex flex-column justify-content-center">
+      <div className="d-none d-sm-flex flex-column align-items-center justify-content-center">
         <h1 className="text-danger">
           Switch to mobile display or less than 576px to view items
         </h1>

@@ -41,7 +41,7 @@ const HomePage = () => {
               to={"/#settings"}
               className={`nav-link ${pathname === "/#signout" ? "active" : ""}`}
             >
-              <i class="fas ps-3 fa-arrow-right-from-bracket"></i>
+              <i className="fas ps-3 fa-arrow-right-from-bracket"></i>
               <span>Sign out</span>
             </Link>
           </li>
